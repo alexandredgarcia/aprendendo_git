@@ -1,0 +1,33 @@
+				GIT
+
+Git é uma ferramenta de versionamento distribuído, usado no desenvolvimento de sistemas
+ou no registro de edições de qualquer arquivo.
+
+Podemos desenvolver projetos onde diversas pessoas podem contribuir simultaneamente nos
+mesmos, editando, criando novos arquivos sem o risco das alterações serem sobrescritas.
+
+Seus principais comandos são: init, touch, status, add, commit, diff, ignore, log, clone,
+pull, push;
+
+INIT: git init = cria o repositório local
+
+TOUCH: touch nome_do_arquivo.extensão = cria o arquivo na pasta do projeto
+
+STATUS: git status = mostra o último status do que foi realizado
+
+ADD: git add nome_do_arquivo ou git add . = prepara o(s) arquivo(s) para commit
+
+COMMIT: git commit -m "Frase de identificação" = envia o(s) arquivo(s) para o repositório
+
+DIFF : git diff = realizado depois de alteração do(s) arquivo(s)
+
+IGNORE: touch .gitignore = seleciona o(s) arquivo(s) que será(ão) ignorado(s) para o repositório
+
+LOG: git log = registra os commit's realizados identificando autor, data e hora
+
+CLONE: git clone url repositório = copia o repositório da nuvem na máquina local
+
+PULL: git pull = verifica e trata conflitos
+
+PUSH: git push = envia ao repositório externo(nuvem) o que será compartilhado
+
